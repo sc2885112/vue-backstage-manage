@@ -1,0 +1,24 @@
+ .page .btn-next {
+    min-width: 35px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+}
+
+/* .el-pagination.is-background .el-pager li:not(.disabled):hover {*/
+/*    color:rgba(245, 127, 35, 1);*/
+/*}*/
+ .el-button--warning {
+    color: #FFF;
+    background-color: rgb(240, 127, 10);
+    border-color: rgb(240, 127, 10);
+}
+ .el-button--warning:hover {
+    color: #FFF;
+    background-color: #E6A23C;
+    border-color: #E6A23C;
+}
+ .el-button:hover {
+    color:rgb(240, 127, 10);
+    border-color: rgb(240, 127, 10);
+    outline: 0;
+}

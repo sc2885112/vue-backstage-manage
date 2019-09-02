@@ -1,0 +1,273 @@
+html,body,#app,.el-container{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 13px; !important;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt20{
+    margin-top: 20px;
+
+}
+
+.mzc{
+    margin: 0 auto;
+}
+
+.tc{
+    text-align: center;
+}
+
+.df{
+    display: flex;
+}
+
+.macen{
+    margin: 0 auto;
+}
+
+.fr{
+    float: right;
+}
+
+.p_5_15 {
+    padding: 5px 15px;
+}
+
+.mt40{
+    margin-top: 40px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+.mlr30 {
+  margin: 0 30px;
+}
+.mtb20{
+  margin: 20px 0;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.panel{
+    width: 500px;
+}
+
+.blue{
+  color: #47a3ff;
+}
+
+.w100-{
+    width: 100% !important;
+}
+
+.fillMax{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.el-col-24{
+    margin: 10px 0 0 0;
+}
+
+.el-tabs__nav-wrap{
+    margin-bottom: 0px !important;
+}
+
+.el-tabs--border-card>.el-tabs__content{
+    padding: 0px;
+}
+
+.el-dialog__body,.el-tree{
+    color: black;
+}
+/*.el-tab-pane,.el-tab-pane .content.pr10{*/
+    /*height: 100%;*/
+/*}*/
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.el-header{
+    padding: 0px;
+}
+
+/*全局字体*/
+/*
+*{
+  font-family: "Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB",Arial,sans-serif;
+}
+*/
+
+/*解决Firefox下，文本框会有红色边框的问题*/
+input[required]:invalid, input:focus:invalid, textarea[required]:invalid, textarea:focus:invalid{box-shadow: none;}
+input[validateevent='true']{box-shadow: none;}
+
+
+/*一级菜单 图标*/
+.el-submenu__title i {
+    /*color: #4b0404 !important;*/
+}
+
+/*一级菜单 文字*/
+.el-submenu__title {
+    color: white !important;
+}
+
+/**
+二级菜单文字
+ */
+.el-menu-item{
+    color: white !important;
+}
+
+/**
+二级菜单背景
+ */
+
+.el-menu{
+    border: none;
+}
+
+.el-submenu.is-opened .el-menu.el-menu--inline,
+.el-submenu.is-active.is-opened .el-menu.el-menu--inline{
+    background-color: #071e35 !important;
+}
+
+/*一级,二级菜单 鼠标经过效果*/
+.el-submenu__title:hover,
+.el-menu-item:hover{
+    background-color: #cecece59 !important;
+    /*background: rgba(255, 208, 75, 0) linear-gradient(to left, rgb(198, 198, 198), rgba(0, 0, 0, 0)) repeat scroll 0% 0% !important;*/
+    color: #409EFF !important;
+    /*border-color: #409EFF!important;*/
+    /*border-left: 4px solid transparent;*/
+    /*transition: all 0.3s;*/
+}
+
+.el-menu-item.is-active{
+    background: #cecece59 !important;
+    color: #409EFF !important;
+    /*background: rgba(255, 208, 75, 0) linear-gradient(to left, rgb(198, 198, 198), rgba(0, 0, 0, 0)) repeat scroll 0% 0% !important;*/
+}
+
+.el-menu-item, .el-submenu__title{
+    height: 45px !important;
+    line-height: 45px !important;
+}
+
+.el-table,.el-table__expanded-cell{
+    background-color:#28737e00;
+}
+
+.el-dropdown-menu .el-popper {
+    background: chocolate !important;
+}
+
+/*全屏样式*/
+body:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+/*全屏时tab隐藏*/
+.fullRight > .tabWrap > .tabBar {
+    background: none;
+}
+.fullRight .el-tabs__header {
+    display: none;
+}
+/*全屏控件*/
+.fullRight > .tabWrap > .tabOperate {
+    display: none;
+}
+
+.el-tabs__header{
+    margin: 0 !important;
+}
+
+/*表头样式*/
+.el-table.bgt th{
+    background: #f2f6fc !important;
+}
+
+/**
+标签页的标签样式
+ */
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    color: white !important;
+    background-color: #254b77;
+    height: 30px;
+    border: 1px solid #00000069;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+    margin: 0 10px;
+    color: #606266;
+    background-color: white;
+    height: 30px;
+    border: 1px solid #00000069;
+}
+
+.el-tabs--border-card>.el-tabs__header{
+    height: 40px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);
+}
+
+.el-tabs__nav-scroll{
+    margin-top: 4px;
+}
+
+.el-tabs__nav.is-top .el-tabs__item.is-top .el-dropdown,
+.el-tabs__nav.is-top .el-tabs__item.is-top.is-active.is-closable .el-dropdown,
+.el-tabs__nav.is-top .el-tabs__item.is-top.is-active.is-active .el-dropdown{
+    top:3px
+}
+
+.el-tabs__nav.is-top .el-tabs__item.is-top .el-icon-close,
+.el-tabs__nav.is-top .el-tabs__item.is-top.is-active.is-closable .el-icon-close,
+.el-tabs__nav.is-top .el-tabs__item.is-top.is-active.is-active .el-icon-close{
+    position: relative;
+    top: 3px;
+    right: -10px;
+}
+
+.el-tabs__item .el-icon-close.is-active{
+    margin-left: 0px;
+}
+
+.el-tabs__item{
+    line-height: 25px;
+}
+
+.el-tabs__nav{
+    left: 5px;
+}
+
+.el-dropdown{
+    color: unset !important;
+}
+
+
+
