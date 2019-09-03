@@ -1,17 +1,6 @@
 # vue-backstage-manage
 一个轻量级的基于vue的后台管理ui脚手架
 
-<p align="center">
-	<a target="_blank" href="https://nodejs.org/dist/v10.16.0/">
-		<img src="https://img.shields.io/static/v1?label=nodejs&message=10.16.0&color=#07993d" ></img>
-	</a>
-
-<a target="_blank" href="https://github.com/vuejs/vue/releases/tag/v2.5.16">
-    <img src="https://img.shields.io/static/v1?label=vue&message=>=2.5.16&color=#07993d"><img>
-</a>
-
-</p>
-
 -------------------------------------------------------------------------------
 
 # 介绍
