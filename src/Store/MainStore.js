@@ -64,7 +64,9 @@ export default {
 			// 判断 tab 项是否已存在
 			let tabExsit = state.openedTabs.find(i => i.menuId === item.menuId)
 
-			if (item.query){
+
+
+			if (tabExsit && item.query){
 				tabExsit.query = item.query;
 			}
 
