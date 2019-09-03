@@ -1,9 +1,0 @@
-.idea
-.git
-.node_modules
-node_modules
-**/.*.swp
-dist
-/dist.tar.gz
-fraud
-/fraud.tar.gz
